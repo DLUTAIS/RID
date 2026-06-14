@@ -1,0 +1,53 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data
+data/
+dataset/
+datasets/
+CIFAR-100/data/
+Paddle/Classification/dataset/
+
+# Training outputs and experiment logs
+checkpoints/
+pretrained/
+output/
+outputs/
+runs/
+wandb/
+logs/
+log/
+log_eval/
+*.log
+
+# Model weights and exported models
+*.pt
+*.pth
+*.ckpt
+*.pth.tar
+*.pdparams
+*.pdopt
+*.onnx
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Generated experiment results
+CIFAR-100/labels/
+CIFAR-100/cm_*.png
